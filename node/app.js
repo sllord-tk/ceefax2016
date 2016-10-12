@@ -129,5 +129,5 @@ var server = http.createServer(function(request, response) {
  
 
 });
-var port_number = server.listen(process.env.PORT || 8080);
+var port_number = server.listen(process.env.PORT || 80);
 server.listen(port_number);
